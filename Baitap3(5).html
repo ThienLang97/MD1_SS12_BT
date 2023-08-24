@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+
+        /*   for (n=3; n<20; n++) {
+              if (n%(n-1)==0) {
+                  console.log("Không phải số nguyên tố", n);
+  
+              }else {console.log("Là số nguyên tố", n);}
+          } */
+        /* let n=+prompt("Nhập n")
+        let snt=true
+        for (m=2; m <= n-1; m++) {
+            if (n % m == 0) {
+                console.log("Ko phải số nguyên tố");
+                snt = false
+                break;
+            
+            }
+        }
+        if (snt) {
+            console.log("Là số nguyên tố");
+        } */
+
+        let n = +prompt("Nhập N");
+        let m = true
+        for (i = 2; i <= n; i++) {
+            if (n % i == 0) {
+                console.log("N ko phải số nguyên tố");
+                m = false;
+                break;
+            }
+        }
+        if (m) {
+            console.log("N là số nguyên tố");
+        }
+    </script>
+</body>
+
+</html>
